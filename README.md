@@ -71,5 +71,17 @@ This output is important when you want to update your keymap via ZMK Studio.
     </tr>
 </table>
 
+# Realtime Keymap Updating [🔼](#contents)
+[ZMK Studio](https://zmk.dev/docs/features/studio) provides runtime update functionality to ZMK powered devices, allowing users to change their keymap layers without flashing new firmware to their keyboards.  
+
+You can use ZMK Studio with ```Chrome/Edge``` at [https://zmk.studio/](https://zmk.studio/).  
+
+Before you use ZMK Studio, you need to get the keyboard plugged with you computer and set the keyboard at ``USB output mode`` [Please refer to this content](https://github.com/DZT970525/KEYPOINT/tree/main#output-select-), then you can select the port shown on the ZMK Studio page and then start the keymap updating.  
+
+The picture below shows you how it looks like when the keyboard connects with ZMK Studio successfully.  
+<p align="center">
+<img width="800"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/zmk_studio.png"/>
+</p>
+
 > [!NOTE]
 > - The USB output status will only show when the keyboard is connected with a host device through a cable
