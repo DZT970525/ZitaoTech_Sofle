@@ -33,3 +33,12 @@ The TrackPoint provides 10 DPI levels in total. During dpi adjustment, the LED w
 <p align="center">
 <img width="250"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/change_dpi.png"/>
 </p>
+
+# How to connect this keyboard with your device [🔼](#contents)
+- Turn on the Bluetooth on your PC or your phone
+- Find the device ```ZITAOTECH_SOFLE``` and pair with it then you should type with the keyboard
+> [!CAUTION]
+> After you delete the bluetooth profile and if you want to pair with the keyboard with another device when you have already paired with some device before, make sure to enter layer 1 and press the encoder on the left half keyboard to clear the bluetooth profile on the keyboard side. Otherwise there will be error when you want to pair with another device!!! Please use the following steps to delete the bluetooth pairing
+- First delete the bluetooth profile(somewhere it's called forget the device or unpair the device) on your device
+- Enter layer 1 and press the encoder on the left split keyboard 
+- Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair the keyboard with your device again or with other devices on the same bluetooth channel.
