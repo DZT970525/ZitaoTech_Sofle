@@ -59,3 +59,17 @@ Similarly, you can pair this keyboard with a third and a fourth device.
 
 > [!CAUTION]
 > - The BT_CLEAR keycoode — which is triggered by pressing the encoder on the left half keyboard — is calculated independently for each device. This means that when you trigger BT_CLEAR while connected to the second device, it won’t affect any of the other devices.
+
+# Output select [🔼](#contents)
+The keyboard can be set at USB output or Bluetooth output, it can be read on the left display.  
+You can toggle the output by **pressing the T key at layer one by default**  
+This output is important when you want to update your keymap via ZMK Studio.  
+<table >
+    <tr>
+        <td><img src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/USB_Output_image.png"  style="width:300px;"/></td>
+        <td><img src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/BLE_Output.png"  style="width:300px;"/></td>
+    </tr>
+</table>
+
+> [!NOTE]
+> - The USB output status will only show when the keyboard is connected with a host device through a cable
