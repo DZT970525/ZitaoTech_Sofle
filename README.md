@@ -12,3 +12,10 @@ ZitaoTech-Sofle keyboard combines a 60-key split keyboard with MX switches with 
 <p align="center">
 <img width="800"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/SoflePic1.jpg"/>
 </p>
+
+# Keymap
+
+<p align="center">
+<img width="800"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/Sofle_Keymap.png"/>
+</p>
+
