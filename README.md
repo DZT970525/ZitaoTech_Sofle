@@ -26,3 +26,10 @@ The detailed mouse layer keymap can be found on the picture:
 <p align="center">
 <img width="800"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/MouselayerPic.png"/>
 </p>
+
+# Change trackpoint dpi on the fly [🔼](#contents)
+In the default firmware, when Layer 1 is active, these two small buttons can be used to adjust the TrackPoint DPI.  
+The TrackPoint provides 10 DPI levels in total. During dpi adjustment, the LED will indicate you the current DPI level.  
+<p align="center">
+<img width="250"  src="https://github.com/DZT970525/KEYPOINT/blob/main/Picture/change_dpi.png"/>
+</p>
