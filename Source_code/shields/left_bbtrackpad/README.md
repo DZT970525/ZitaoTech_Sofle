@@ -1,0 +1,1 @@
+west build -p -b zitaotech_sofle_left --  -DSHIELD="lpm_view;left_bbtrackpad"

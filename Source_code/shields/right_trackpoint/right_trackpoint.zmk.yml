@@ -1,0 +1,9 @@
+file_format: "1"
+id: right_trackpoint
+name: right_trackpoint
+type: shield
+url: 
+requires: 
+features:
+  - mouse
+ 
