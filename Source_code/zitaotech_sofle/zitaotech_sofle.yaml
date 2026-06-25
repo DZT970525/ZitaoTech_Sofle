@@ -1,0 +1,15 @@
+identifier: zitaotech_sofle
+name: zitaotech_sofle
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - adc
+  - i2c
+  - usb_device
+  - ble
+  - ieee802154
+  - pwm
+  - watchdog

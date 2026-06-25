@@ -1,0 +1,41 @@
+#
+# Copyright (c) 2025 ZitaoTech
+# SPDX-License-Identifier: MIT
+#
+
+if BOARD_ZITAOTECH_SOFLE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "ZITAOTECH_SOFLE"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # BOARD_ZITAOTECH_SOFLE_LEFT
+
+
+if BOARD_ZITAOTECH_SOFLE_LEFT || BOARD_ZITAOTECH_SOFLE_RIGHT
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
+
+config BOARD
+    default "ZITAOTECH_SOFLE"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_PERIPHERAL_HID_INDICATORS
+    default y
+
+config BT_CTLR
+    default BT
+
+endif # BOARD_ZITAOTECH_SOFLE_LEFT || BOARD_ZITAOTECH_SOFLE_RIGHT

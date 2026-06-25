@@ -1,0 +1,8 @@
+# Copyright (c) 2025 ZitaoTech
+# SPDX-License-Identifier: MIT
+
+config BOARD_ZITAOTECH_SOFLE_LEFT
+    bool
+
+config BOARD_ZITAOTECH_SOFLE_RIGHT
+    bool
