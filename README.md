@@ -103,6 +103,10 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 > [!NOTE]
 > - The USB output status will only show when the keyboard is connected with a host device through a cable
 
+## Advanced Keymap Updating [🔼](#contents)
+Since the ZMK Studio is still in beta stage, There’s also a more straightforward method to edit the keymap.  
+Please refer to this [page](https://github.com/DZT970525/zmk_config_sofle_macintosch_dongle)
+
 # How to pair with dongle
 
 You can use this keyboard with an external dongle then you don't need to mess up with Bluetooth.
