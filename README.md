@@ -109,7 +109,7 @@ The dongle can show the current layer, wpm, battery of each keyboard and the cur
 
 But the default firmware doesn't include the dongle part, to pair with the dongle need to do the following steps:
 
-1. Make the left keyboard enter bootloader and flash the reset firmware. [How to make the keyboard enter bootloader]()
+1. Make the left keyboard enter bootloader and flash the reset firmware. [How to make the keyboard enter bootloader](https://github.com/DZT970525/ZitaoTech_Sofle/tree/main#how-to-make-flash-a-new-firmware-and-reset-the-keyboard-)
 2. After the reset firmware is flashed, flash the normal firmware for the left keyboard
 3. Do the same thing on the right keyboard: first flash the reset firmware and re-flash the normal firmware.
 
