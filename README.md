@@ -43,11 +43,17 @@ The TrackPoint provides 10 DPI levels in total. During dpi adjustment, the LED w
 - Enter layer 1 and press the encoder on the left split keyboard 
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair the keyboard with your device again or with other devices on the same bluetooth channel.
 
-# How to make flash a new firmware and reset the keyboard [🔼](#contents)
+# How to flash a new firmware and reset the keyboard [🔼](#contents)
 
 You can make the keyboard enter bootloader when the keyboard is connected with your PC and flash a new firmware to the keyboard.
 
+<p align="center">
+<img width="250"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/bootloader.png"/>
+</p>
+
 There is a reset button on the keyboard and you can use a pin to double tap the reset button within 500ms and the keyboard will enter bootloader.
+
+
 
 Now a new USB Disk will be found by your PC called nice!nano, you can drag the new uf2 firmware file into the USB disk and a new firmware will be flashed.
 
@@ -116,3 +122,11 @@ But the default firmware doesn't include the dongle part, to pair with the dongl
 You can find the firmware [here](https://github.com/DZT970525/ZitaoTech_Sofle/tree/main/Firmware/Macintosch_firmware)
 > [!NOTE]
 > - Make sure you power on the left keyboard first when the dongle is plugged otherwise the dongle will show the battery percent of the right keyboard on the left side.
+
+### How to flash a new firmware into the dongle?
+You can press the button next to the usbc port while the keyboard is plugged and then you can drag a new firmware into the usb disk found by your PC
+<p align="center">
+<img width="250"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/dongle_reset.png"/>
+</p>
+
+# Others
