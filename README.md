@@ -43,6 +43,17 @@ The TrackPoint provides 10 DPI levels in total. During dpi adjustment, the LED w
 - Enter layer 1 and press the encoder on the left split keyboard 
 - Refresh the Bluetooth setting page on your device(You can turn on and off the bluetooth) and then you can pair the keyboard with your device again or with other devices on the same bluetooth channel.
 
+# How to make flash a new firmware and reset the keyboard [🔼](#contents)
+
+You can make the keyboard enter bootloader when the keyboard is connected with your PC and flash a new firmware to the keyboard.
+
+There is a reset button on the keyboard and you can use a pin to double tap the reset button within 500ms and the keyboard will enter bootloader.
+
+Now a new USB Disk will be found by your PC called nice!nano, you can drag the new uf2 firmware file into the USB disk and a new firmware will be flashed.
+
+If you have issues will bluetooth connect like you can't connect the keyboard anymore with your PC, you can first flash the reset firmware into the keyboard and re-flash the normal firmware and everything will be reset so you can connect the keyboard with your device again.
+
+You can find the firmware [here](https://github.com/DZT970525/ZitaoTech_Sofle/tree/main/Firmware)
 
 # Multi device connect [🔼](#contents)
 By default the keyboard can be paired with 4 devices at the same time and can be switched between them seamlessly. Here are the steps how to connect with devices:
@@ -85,3 +96,23 @@ The picture below shows you how it looks like when the keyboard connects with ZM
 
 > [!NOTE]
 > - The USB output status will only show when the keyboard is connected with a host device through a cable
+
+# How to pair with dongle
+
+You can use this keyboard with an external dongle then you don't need to mess up with Bluetooth.
+
+<p align="center">
+<img width="400"  src="https://github.com/DZT970525/ZitaoTech_Sofle/blob/main/Pic/Dongle.png"/>
+</p>
+
+The dongle can show the current layer, wpm, battery of each keyboard and the current output status.
+
+But the default firmware doesn't include the dongle part, to pair with the dongle need to do the following steps:
+
+1. Make the left keyboard enter bootloader and flash the reset firmware. [How to make the keyboard enter bootloader]()
+2. After the reset firmware is flashed, flash the normal firmware for the left keyboard
+3. Do the same thing on the right keyboard: first flash the reset firmware and re-flash the normal firmware.
+
+You can find the firmware [here](https://github.com/DZT970525/ZitaoTech_Sofle/tree/main/Firmware/Macintosch_firmware)
+> [!NOTE]
+> - Make sure you power on the left keyboard first when the dongle is plugged otherwise the dongle will show the battery percent of the right keyboard on the left side.
